@@ -19,7 +19,7 @@ int main()
     list.ResetList();
 
     cout<<endl;
-    cout<<list.LengthIs()<<endl;
+    cout<<"Length is: "<<list.LengthIs()<<endl;
 
     list.InsertItem(1);
      for(int i=0; i<list.LengthIs(); i++){
@@ -73,6 +73,7 @@ int main()
         cout<<"List is not full"<<endl;
     }
     list.DeleteItem(5);
+    list.ResetList();
 
     if(list.IsFull()){
         cout<<"List is full"<<endl;
@@ -82,6 +83,8 @@ int main()
     }
 
     list.DeleteItem(1);
+    list.ResetList();
+    
     if(list.IsFull()){
         cout<<"List is full"<<endl;
     }
