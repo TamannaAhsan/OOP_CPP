@@ -17,7 +17,7 @@ int main()
 
     int x;
     for(int i=0; i<list.LengthIs(); i++){
-        list.GetNextItem(x);
+        x=list.GetNextItem();
         cout<<x<<" ";
     }
 
@@ -53,7 +53,7 @@ int main()
 
     int z;
     for(int i=0; i<list.LengthIs(); i++){
-        list.GetNextItem(z);
+        z=list.GetNextItem();
         cout<<z<<" ";
     }
 
