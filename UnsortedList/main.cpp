@@ -12,8 +12,7 @@ int main()
     list.InsertItem(6);
     list.InsertItem(9);
     for(int i=0; i<list.LengthIs(); i++){
-        int x;
-        list.GetNextItem(x);
+        int x=list.GetNextItem();
         cout<<x<<" ";
     }
     list.ResetList();
@@ -23,8 +22,7 @@ int main()
 
     list.InsertItem(1);
      for(int i=0; i<list.LengthIs(); i++){
-        int x;
-        list.GetNextItem(x);
+        int x=list.GetNextItem();
         cout<<x<<" ";
     }
     cout<<endl;
