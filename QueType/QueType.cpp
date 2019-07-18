@@ -1,5 +1,5 @@
 #include"QueType.h"
-
+//based on template class
 template<class ItemType>
 QueType<ItemType>::QueType(int max){
     maxQue = max+1;
