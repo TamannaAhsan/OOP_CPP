@@ -3,7 +3,6 @@
 
 enum relation {LESS , GREATER , EQUAL};
 #include<bits/stdc++.h>
-#include<vector>
 using namespace std;
 
 const int SIZE =100;
@@ -13,11 +12,10 @@ private :
 	int serialNo;
 	string name;
 	int days;
-	int roomNo[SIZE];
 
 public :
     ItemType();
-    ItemType(int _serialNo, string _name, int _days, vector<int>arr);
+    ItemType(int _serialNo, string _name, int _days);
     string getName();
     int getSerialNo();
     int getDays();
