@@ -1,20 +1,15 @@
 #include "ItemType.h"
 #include<bits/stdc++.h>
-#include<vector>
 using namespace std;
 
 ItemType::ItemType(){
 
 }
 
-ItemType::ItemType(int _serialNo, string _name, int _days, vector<int>arr){
+ItemType::ItemType(int _serialNo, string _name, int _days){
     name=_name;
     serialNo=_serialNo;
     days=_days;
-    for(int i=0; i<SIZE; i++){
-        roomNo[i]=arr[i];
-    }
-
 }
 
 int ItemType::getSerialNo(){
